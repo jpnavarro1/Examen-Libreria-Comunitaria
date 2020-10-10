@@ -41,3 +41,29 @@ function estaDisponible(catalogo, ISBN) {
 }
 
 
+function fanaticoAutor(catalogo, autor) {
+/*
+	1:
+		busco en el catalogo todos los libros de su autor
+		favorito, de esos separo los que estan disponibles
+		y se los ofrezco
+
+	2:
+		busco libros por su autor
+		separo los que estan disponibles
+		devuelvo esos
+*/
+
+	const todosAutor = buscaLibrosAutor(catalogo, autor)
+	let disponiblesAutor = []
+
+	for(let i = 0; i < todosAutor.length; i++) {
+		const libro = todosAutor[i]
+		if(!libro.alquilado) {
+			disponiblesAutor.push(libro)
+		}
+	}
+
+	return disponiblesAutor
+
+}

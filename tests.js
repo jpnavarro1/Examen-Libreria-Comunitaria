@@ -37,3 +37,7 @@ const miCatalogo = [
 let puedoAlquilar = estaDisponible(miCatalogo, 9789870400639)
 
 console.log(puedoAlquilar)
+
+let meGusta = fanaticoAutor(miCatalogo, 'Pablo De Santis')
+
+console.log(meGusta)
