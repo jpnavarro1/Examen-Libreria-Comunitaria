@@ -20,7 +20,7 @@ const miCatalogo = [
 		autor: 'Pablo De Santis',
 		lanzamiento: 1992,
 		editorial: 'Alfaguara',
-		ISBN: 9789870400639,
+		ISBN: '9789870400639',
 		alquilado: true,
 		vecesPrestado: 5
 	},
@@ -29,7 +29,7 @@ const miCatalogo = [
 		autor: 'Pablo De Santis',
 		lanzamiento: 2000,
 		editorial: 'Alfaguara',
-		ISBN: 9789870402435,
+		ISBN: '9789870402435',
 		alquilado: false,
 		vecesPrestado: 3
 	},
@@ -38,7 +38,7 @@ const miCatalogo = [
 		autor: 'Andrzej Sapkowski',
 		lanzamiento: 1993,
 		editorial: 'SuperNova',
-		ISBN: 9788493283612,
+		ISBN: '9788493283612',
 		alquilado: true,
 		vecesPrestado: 500
 	},
@@ -47,7 +47,7 @@ const miCatalogo = [
 		autor: 'Andrzej Sapkowski',
 		lanzamiento: 1992,
 		editorial: 'Alamut',
-		ISBN: 9788498890433,
+		ISBN: '9788498890433',
 		alquilado: true,
 		vecesPrestado: 485
 	},
@@ -56,7 +56,7 @@ const miCatalogo = [
 		autor: 'Andrzej Sapkowski',
 		lanzamiento: 1994,
 		editorial: 'Alamut',
-		ISBN: 9788498891065,
+		ISBN: '9788498891065',
 		alquilado: true,
 		vecesPrestado: 400
 	},
@@ -65,7 +65,7 @@ const miCatalogo = [
 		autor: 'Andrzej Sapkowski',
 		lanzamiento: 1995,
 		editorial: 'Alamut',
-		ISBN: 9788498891072,
+		ISBN: '9788498891072',
 		alquilado: false,
 		vecesPrestado: 380
 	},
@@ -74,7 +74,7 @@ const miCatalogo = [
 		autor: 'Andrzej Sapkowski',
 		lanzamiento: 1996,
 		editorial: 'Alamut',
-		ISBN: 9788498891089,
+		ISBN: '9788498891089',
 		alquilado: false,
 		vecesPrestado: 375
 	},
@@ -83,7 +83,7 @@ const miCatalogo = [
 		autor: 'Andrzej Sapkowski',
 		lanzamiento: 1997,
 		editorial: 'Alamut',
-		ISBN: 9788498891096,
+		ISBN: '9788498891096',
 		alquilado: false,
 		vecesPrestado: 373
 	},
@@ -92,7 +92,7 @@ const miCatalogo = [
 		autor: 'Andrzej Sapkowski',
 		lanzamiento: 1999,
 		editorial: 'Alamut',
-		ISBN: 9788498890624,
+		ISBN: '9788498890624',
 		alquilado: false,
 		vecesPrestado: 373
 	},
@@ -101,7 +101,7 @@ const miCatalogo = [
 		autor: 'Andrzej Sapkowski',
 		lanzamiento: 2013,
 		editorial: 'Alamut',
-		ISBN: 9788498891164,
+		ISBN: '9788498891164',
 		alquilado: false,
 		vecesPrestado: 373
 	},
@@ -110,14 +110,14 @@ const miCatalogo = [
 		autor: 'John Verdon',
 		lanzamiento: 2010,
 		editorial: 'Roca editorial',
-		ISBN: 9788499182070,
+		ISBN: '9788499182070',
 		alquilado: true,
 		vecesPrestado: 200
 	},
 ]
 
 
-let puedoAlquilar = estaDisponible(miCatalogo, 9789870400639)
+let puedoAlquilar = estaDisponible(miCatalogo, '9789870400639')
 
 console.log(puedoAlquilar)
 
