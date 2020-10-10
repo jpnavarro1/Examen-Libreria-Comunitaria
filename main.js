@@ -67,3 +67,24 @@ function fanaticoAutor(catalogo, autor) {
 	return disponiblesAutor
 
 }
+
+function topDiez(catalogo) {
+/*
+	1:
+		reviso la cantidad de veces que fue prestado cada libro
+		y devuelvo los 10 mas prestados
+
+	2:
+		ordeno el catalogo segun la cantidad de veces que
+		fue prestado cada libro
+
+		me quedo con los primeros 10 y los devuelvo
+*/
+
+	let masPrestados = catalogo.sort(function(a, b) {
+		return b.vecesPrestado - a.vecesPrestado
+	})
+
+	return masPrestados.slice(0, 10)
+
+}
